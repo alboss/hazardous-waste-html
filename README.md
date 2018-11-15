@@ -3,7 +3,7 @@ Flat HTML files for hazardous waste prototype
 Using MD Bootstrap jQuery version, no React or Angular or Vue
 
 # CDNs
-<code>
+
 &lt;!-- Font Awesome --><br>
 &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <br><br>
@@ -24,4 +24,4 @@ Using MD Bootstrap jQuery version, no React or Angular or Vue
 <br><br>
 &lt;!-- MDB core JavaScript --><br>
 &lt;script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.14/js/mdb.min.js"></script>
-</code>
+
