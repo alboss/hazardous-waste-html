@@ -2,6 +2,11 @@
 Flat HTML files for hazardous waste prototype
 Using MD Bootstrap jQuery version, no React or Angular or Vue
 
+## Demo 
+
+[https://alboss.github.io/hazardous-waste-html/index.html](https://alboss.github.io/hazardous-waste-html/index.html)
+
+
 # CDNs
 <code>
 &lt;!-- Font Awesome --><br>
