@@ -4,6 +4,7 @@ Using MD Bootstrap jQuery version, no React or Angular or Vue
 
 # CDNs
 <pre>
+<code>
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -24,4 +25,5 @@ Using MD Bootstrap jQuery version, no React or Angular or Vue
 
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.14/js/mdb.min.js"></script>
+</code>
 </pre>
