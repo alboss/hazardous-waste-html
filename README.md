@@ -3,11 +3,12 @@ Flat HTML files for hazardous waste prototype
 Using MD Bootstrap jQuery version, no React or Angular or Vue
 
 # CDNs
+
 <code>
-<!-- Font Awesome --><br>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><br>
-<br>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </code>
+<br><br>
 <!-- Bootstrap core CSS -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
 
