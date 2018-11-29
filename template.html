@@ -1,22 +1,53 @@
 <!doctype html>
 <html lang="en">
 <head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Include on every page -->
+    <!-- required = if empty, do not allow to publish --> 
+    <meta charset="utf-8">
+    <title>[text, required]</title>
+    <meta name="Description" content="[text, required]">
+    <meta name="page-owner" content="[email, required]">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Preferred web address - auto-populate if not manually indicated-->
+    <link rel="canonical" href="[This page's preferred URL - https://domain.gov/path/file.aspx]" />
 
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="css/mdb.min.css" rel="stylesheet">
-<!-- Your custom styles (optional) -->
-<link href="css/style.css" rel="stylesheet">
+    <!-- Translation control -->
+    <meta name="google" content="notranslate" />
+    <!--Display if content is not OK to translate; may apply (optionally) to a whole site or page specific
+    setting; also add translate="no"to <body> tag for Bing translate. This needs to be able to be toggled off 
+    in Sitecore at site and page levels-->
+
+    <!-- Site icon, currently https://www.hazwastehelp.org/favicon.ico -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+    <!-- Open graph tags -->
+    <meta property="og:url" content="[Same as canonical URL above]" /> <!-- autopopulate -->
+    <meta property="og:type" content="[website|article|business.business|place]" /> <!-- set at site level -->
+	
+    <!--variables come from input fields in Sitecore, if null value then don't include these tags-->
+    <meta property="og:title" content="[text]" /> 
+    <meta property="og:description" content="[text]" />
+    <meta property="og:image" content="[image URL ending in gif, jpg, png - not ashx]" />
+
+    <!-- site home page only - verification codes -->
+    <!-- Google webmaster tools site verification -->
+    <meta name="google-site-verification" content="[text]" />
+    <!-- Bing webmaster tools site verification -->
+    <meta name="msvalidate.01" content="[text]" />
+
+    <!-- these go on all pages -->
+	<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet"> 
+	<!-- Material Design Bootstrap -->
+		<link href="css/mdb.min.css" rel="stylesheet"> 
+	<!-- Your custom styles (optional) -->
+		<link href="css/style.css" rel="stylesheet"> 
 </head>
-<title>King County Hazardous Waste Management Program</title>
-</head>
-<body>
+
+<body translate="no"> <!-- can toggle to yes at either page level or site level -->
 <div id="root">
   <div class="flyout">
     <nav class="navbar navbar-light fixed-top navbar-expand-md scrolling-navbar white" role="navigation"><a class="navbar-brand active" aria-current="page" href="/"><img src="logo.png" alt="Hazardous Waste Management Program" height="50"> </a>
