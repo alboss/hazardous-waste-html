@@ -1,161 +1,32 @@
 <!doctype html>
 <html lang="en">
-<head>
-<!-- Include on every page -->
-    <!-- required = if empty, do not allow to publish --> 
-    <meta charset="utf-8">
-    <title>[text, required]</title>
-    <meta name="Description" content="[text, required]">
-    <meta name="page-owner" content="[email, required]">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <!-- Preferred web address - auto-populate if not manually indicated-->
-    <link rel="canonical" href="[This page's preferred URL - https://domain.gov/path/file.aspx]" />
-
-    <!-- Translation control -->
-    <meta name="google" content="notranslate" />
-    <!--Display if content is not OK to translate; may apply (optionally) to a whole site or page specific
-    setting; also add translate="no"to <body> tag for Bing translate. This needs to be able to be toggled off 
-    in Sitecore at site and page levels-->
-
-    <!-- Site icon, currently https://www.hazwastehelp.org/favicon.ico -->
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-
-    <!-- Open graph tags -->
-    <meta property="og:url" content="[Same as canonical URL above]" /> <!-- autopopulate -->
-    <meta property="og:type" content="[website|article|business.business|place]" /> <!-- set at site level -->
-	
-    <!--variables come from input fields in Sitecore, if null value then don't include these tags-->
-    <meta property="og:title" content="[text]" /> 
-    <meta property="og:description" content="[text]" />
-    <meta property="og:image" content="[image URL ending in gif, jpg, png - not ashx]" />
-
-    <!-- site home page only - verification codes -->
-    <!-- Google webmaster tools site verification -->
-    <meta name="google-site-verification" content="[text]" />
-    <!-- Bing webmaster tools site verification -->
-    <meta name="msvalidate.01" content="[text]" />
-
-    <!-- these go on all pages -->
-	<!-- Font Awesome -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
-	<!-- Bootstrap core CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet"> 
-	<!-- Material Design Bootstrap -->
-		<link href="css/mdb.min.css" rel="stylesheet"> 
-	<!-- Your custom styles (optional) -->
-		<link href="css/style.css" rel="stylesheet"> 
-</head>
-
-<body translate="no"> <!-- can toggle to yes at either page level or site level -->
-<div id="root">
-  <div class="flyout">
-    <nav class="navbar navbar-light fixed-top navbar-expand-md scrolling-navbar white" role="navigation"><a class="navbar-brand active" aria-current="page" href="/"><img src="logo.png" alt="Hazardous Waste Management Program" height="50"> </a>
-      <button type="button" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
-      <div id="mainNavbarCollapse" class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link Ripple-parent active" aria-current="page" href="/">Home
-            <div class="Ripple " style="top: 0px; left: 0px; width: 0px; height: 0px;"></div>
-            </a></li>
-          <li class="nav-item"><a class="nav-link Ripple-parent" href="/households">Households
-            <div class="Ripple " style="top: 0px; left: 0px; width: 0px; height: 0px;"></div>
-            </a></li>
-          <li class="nav-item"><a class="nav-link Ripple-parent" href="/businesses">Businesses
-            <div class="Ripple " style="top: 0px; left: 0px; width: 0px; height: 0px;"></div>
-            </a></li>
-          <li class="nav-item"><a class="nav-link Ripple-parent" href="/news-events">News &amp; Events
-            <div class="Ripple " style="top: 0px; left: 0px; width: 0px; height: 0px;"></div>
-            </a></li>
-          <li class="nav-item"><a class="nav-link Ripple-parent" href="/language-resources">Language Resources
-            <div class="Ripple " style="top: 0px; left: 0px; width: 0px; height: 0px;"></div>
-            </a></li>
-          <li class="nav-item"><a class="nav-link Ripple-parent" href="/customer-service">Customer Service
-            <div class="Ripple " style="top: 0px; left: 0px; width: 0px; height: 0px;"></div>
-            </a></li>
-        </ul>
-        <!-- Links -->
-
-    		<!-- Search form -->
-    		<form class="form-inline">
-    			<div class="input-group form-2 pl-0">
-      				<input class="form-control" type="text" aria-label="Search this site">
-      				<div class="input-group-append">
-						<span class="text-light input-group-text" id="search-site"><i class="fa fa-search" aria-hidden="true"></i></span> 
-	  				</div>
-   			</form>
-      </div>
-    </nav>
-    <main>
-
-
-    </main>
-    <footer class="page-footer mt-4 black">
-      <div class="container-fluid cyan lighten-4 "><small>
-        <div class="row justify-content-md-center text-center">
-          <div class="col-lg-1 col-md-2 col-sm-2 col-6 p-3 text-center"> <a href="#" class="text-dark"><i class="fa fa-3x fa-info-circle" aria-hidden="true"></i><br>
-            About us</a> </div>
-          <div class="col-lg-1 col-md-2 col-sm-2 col-6 p-3 text-center"> <a href="#" class="text-dark"><i class="fa fa-3x fa-check-circle-o" aria-hidden="true"></i><br>
-            Accountability</a> </div>
-          <div class="col-lg-1 col-md-2 col-sm-2 col-6 p-3 text-center"> <a href="#" class="text-dark"><i class="fa fa-3x fa-file-text-o" aria-hidden="true"></i><br>
-            Research</a> </div>
-          <div class="col-lg-1 col-md-2 col-sm-2 col-6 p-3 text-center"> <a href="#" class="text-dark"><i class="fa fa-3x fa-globe" aria-hidden="true"></i><br>
-            Policy & Advocacy</a> </div>
-          <div class="col-lg-1 col-md-2 col-sm-2 col-6 p-3 text-center"> <a href="#" class="text-dark"><i class="fa fa-3x fa-wrench" aria-hidden="true"></i><br>
-            Toolkit</a> </div>
-          <div class="col-lg-1 col-md-2 col-sm-2 col-6 p-3 text-center"> <a href="#" class="text-dark"><i class="fa fa-3x fa-briefcase" aria-hidden="true"></i><br>
-            Careers</a> </div>
-        </div>
-        </small> </div>
-      <div class="container-fluid">
-        <div class="row m-3 text-white">
-          <div class="col-sm">
-            <p> <img src="king-county.gif" class="img-fluid" alt="King County"> </p>
-            <p class="footer-copyright ml-3 pt-3"> 
-              <script type="text/javascript">
-  					document.write('\<a href="https://www.kingcounty.gov/about/website/termsofuse"> &copy; King County, WA ' + new Date().getFullYear()); + '\</a>'
-				  </script> 
-            </p>
-          </div>
-          <div class="col-sm">
-            <p>As part of the<br>
-              <strong>Local Hazardous Waste Management Program in King County</strong></p>
-            <p>
-            <address>
-            130 Nickerson St.<br>
-            Suite 100<br>
-            Seattle WA 98101
-            </address>
-            </p>
-          </div>
-          <div class="col-sm">
-            <ul class="list-unstyled">
-              <li><a href="#" class="text-light">Contact us</a></li>
-              <li><a href="#" class="text-light">Site map</a></li>
-              <li><a href="#" class="text-light">Terms of service</a></li>
-              <li><a href="#" class="text-light">Member login</a></li>
-              <li><a href="#" class="text-light">Toolkit</a></li>
-            </ul>
-          </div>
-          <div class="col-sm">
-            <p><strong><a href="#" class="text-light">Household Hazards Line</a></strong><br>
-              206-296-4692</p>
-            <p><strong><a href="#" class="text-light">Business Waste Line</a></strong><br>
-              206-296-4692</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </div>
-</div>
-
-<!-- SCRIPTS --> 
-<!-- JQuery --> 
-<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> 
-<!-- Bootstrap tooltips --> 
-<script type="text/javascript" src="js/popper.min.js"></script> 
-<!-- Bootstrap core JavaScript --> 
-<script type="text/javascript" src="js/bootstrap.min.js"></script> 
-<!-- MDB core JavaScript --> 
-<script type="text/javascript" src="js/mdb.min.js"></script>
-</body>
+	<head>
+		<div w3-include-html="head-contents.html">
+		</div>
+	</head>
+	<title>
+		King County Hazardous Waste Management Program
+	</title>
+	</head>
+	<body>
+		<div id="root">
+		<div w3-include-html="header.html">
+		</div>
+			<main id="content">
+<!-- primary page content -->
+			</main>
+<!-- end root div -->
+		</div>
+		<div w3-include-html="footer.html">
+		</div>
+<!-- SCRIPTS -->
+<!-- Enable includes -->
+		<script type="text/javascript" src="js/include-html.js">
+		</script>
+		<script>
+			includeHTML();
+		</script>
+		<div w3-include-html="scripts.html">
+		</div>
+	</body>
 </html>
